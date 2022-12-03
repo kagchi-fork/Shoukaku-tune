@@ -1,4 +1,4 @@
-const SearchTypes = { 'soundcloud': 'scsearch', 'youtube': 'ytsearch', 'youtubemusic': 'ytmsearch' };
+const SearchTypes = { 'soundcloud': 'scsearch', 'youtube': 'ytsearch', 'youtubemusic': 'ytmsearch', 'deezer': 'dzsearch' };
 
 class Utils {
     static mergeDefault(def, given) {
