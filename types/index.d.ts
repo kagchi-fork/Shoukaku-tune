@@ -10,7 +10,7 @@ export type Severity = "COMMON" | "SUSPICIOUS" | "FAULT";
 export type PlayerEventType = "TrackStartEvent" | "TrackEndEvent" | "TrackExceptionEvent" | "TrackStuckEvent" | "WebSocketClosedEvent";
 export type ShoukakuTrackListType = "PLAYLIST" | "TRACK" | "SEARCH" | "NO_MATCHES" | "LOAD_FAILED";
 export type ShoukakuTrackListExceptionSeverity = "COMMON" | "SUSPICIOUS" | "FAULT";
-export type LavalinkSource = "youtube" | "youtubemusic" | "soundcloud";
+export type LavalinkSource = "youtube" | "youtubemusic" | "soundcloud" | "deezer";
 export type Snowflake = `${bigint}` | string;
 export type Base64String = string;
 
